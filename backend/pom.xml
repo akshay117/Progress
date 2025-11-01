@@ -54,6 +54,13 @@
             <version>3.44.1.0</version>
         </dependency>
 
+        <!-- PostgreSQL JDBC Driver (for production/cloud deployment) -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
         <!-- Hibernate SQLite Dialect -->
         <dependency>
             <groupId>org.hibernate.orm</groupId>
