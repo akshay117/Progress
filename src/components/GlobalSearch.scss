@@ -1,0 +1,242 @@
+.global-search-modal {
+  .cds--modal-container {
+    max-height: 90vh;
+  }
+
+  .cds--modal-content {
+    padding: 0;
+    margin-bottom: 0;
+  }
+}
+
+.global-search-container {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  min-height: 500px;
+
+  .search-input-wrapper {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    background: #f4f4f4;
+
+    .cds--search {
+      max-width: 100%;
+    }
+
+    .cds--search-input {
+      font-size: 1rem;
+      padding: 0.75rem 2.5rem;
+      height: 3rem;
+
+      &:focus {
+        outline: 2px solid #0f62fe;
+      }
+    }
+
+    .search-hint {
+      margin: 0.5rem 0 0 0;
+      font-size: 0.75rem;
+      color: #525252;
+    }
+  }
+
+  .search-results {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    background: #ffffff;
+
+    .loading-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem;
+    }
+
+    .no-results {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 2rem;
+      text-align: center;
+      color: #525252;
+
+      svg {
+        fill: #c6c6c6;
+        margin-bottom: 1rem;
+      }
+
+      p {
+        font-size: 1rem;
+        font-weight: 500;
+        margin: 0.5rem 0;
+        color: #161616;
+      }
+
+      small {
+        font-size: 0.875rem;
+        color: #525252;
+      }
+    }
+
+    .search-instructions {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem 2rem;
+      text-align: center;
+      color: #525252;
+
+      svg {
+        fill: #0f62fe;
+        margin-bottom: 1.5rem;
+        opacity: 0.6;
+      }
+
+      h3 {
+        font-size: 1.25rem;
+        font-weight: 400;
+        color: #161616;
+        margin: 0 0 0.5rem 0;
+      }
+
+      p {
+        font-size: 0.875rem;
+        color: #525252;
+        margin: 0 0 1.5rem 0;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        li {
+          font-size: 0.875rem;
+          color: #525252;
+          padding-left: 1.5rem;
+          position: relative;
+
+          &::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: #0f62fe;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .results-count {
+      font-size: 0.875rem;
+      font-weight: 600;
+      color: #525252;
+      margin-bottom: 1rem;
+      padding: 0 0.5rem;
+    }
+
+    .results-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+
+      .result-card {
+        padding: 0 !important;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        border: 1px solid #e0e0e0;
+
+        &:hover {
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          transform: translateY(-1px);
+          border-color: #0f62fe;
+        }
+
+        .result-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 1rem;
+          border-bottom: 1px solid #e0e0e0;
+          background: #f4f4f4;
+
+          .vehicle-info {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+
+            svg {
+              fill: #525252;
+            }
+
+            .vehicle-number {
+              font-size: 1rem;
+              font-weight: 600;
+              color: #161616;
+              font-family: 'IBM Plex Mono', monospace;
+            }
+          }
+        }
+
+        .result-body {
+          padding: 1rem;
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+
+          .result-field {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: #161616;
+
+            svg {
+              fill: #525252;
+              flex-shrink: 0;
+            }
+
+            &.company {
+              padding-top: 0.25rem;
+              border-top: 1px solid #f4f4f4;
+              margin-top: 0.25rem;
+              color: #525252;
+              font-style: italic;
+
+              svg {
+                display: none;
+              }
+            }
+          }
+        }
+
+        .result-footer {
+          padding: 0.75rem 1rem;
+          border-top: 1px solid #e0e0e0;
+          background: #fafafa;
+
+          small {
+            font-size: 0.75rem;
+            color: #525252;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .global-search-container {
+    height: 60vh;
+    min-height: 400px;
+  }
+}
+
+

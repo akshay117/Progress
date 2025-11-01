@@ -1,0 +1,189 @@
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0f62fe 0%, #0353e9 100%);
+  padding: 2rem;
+
+  .login-container {
+    width: 100%;
+    max-width: 500px;
+
+    .login-card {
+      background: #ffffff;
+      padding: 3rem;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+
+      .login-header {
+        margin-bottom: 2rem;
+
+        .login-title {
+          font-size: 2rem;
+          font-weight: 300;
+          color: #161616;
+          margin-bottom: 0.5rem;
+          text-align: center;
+        }
+
+        .login-subtitle {
+          color: #525252;
+          text-align: center;
+          font-size: 0.875rem;
+        }
+      }
+
+      .login-error {
+        margin-bottom: 1.5rem;
+      }
+
+      .login-form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25rem;
+
+        .cds--text-input,
+        .cds--text-input__field-wrapper {
+          &:focus-within {
+            outline: 2px solid #0f62fe;
+          }
+        }
+
+        .login-button {
+          width: 100%;
+          margin-top: 0.5rem;
+          background-color: #0f62fe !important;
+          border-color: #0f62fe !important;
+          
+          &:hover:not(:disabled) {
+            background-color: #0353e9 !important;
+          }
+
+          &:active:not(:disabled) {
+            background-color: #002d9c !important;
+          }
+        }
+      }
+
+      .login-footer {
+        margin-top: 2.5rem;
+        padding-top: 2rem;
+        border-top: 1px solid #e0e0e0;
+
+        .footer-title {
+          font-size: 0.875rem;
+          font-weight: 600;
+          color: #525252;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          text-align: center;
+          margin-bottom: 1.5rem;
+        }
+
+        .credentials-grid {
+          display: grid;
+          gap: 1rem;
+
+          .credential-card {
+            border: 1px solid #e0e0e0;
+            padding: 1rem;
+            background: #f4f4f4;
+            position: relative;
+            transition: all 0.2s ease;
+
+            &:hover {
+              box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+              transform: translateY(-2px);
+            }
+
+            &.admin-card {
+              border-left: 4px solid #0f62fe;
+            }
+
+            &.staff-card {
+              border-left: 4px solid #24a148;
+            }
+
+            .role-badge {
+              display: inline-block;
+              padding: 0.25rem 0.75rem;
+              font-size: 0.75rem;
+              font-weight: 600;
+              letter-spacing: 0.5px;
+              margin-bottom: 0.75rem;
+              color: #ffffff;
+
+              &.admin-badge {
+                background-color: #0f62fe;
+              }
+
+              &.staff-badge {
+                background-color: #24a148;
+              }
+            }
+
+            .credential-info {
+              display: flex;
+              align-items: center;
+              gap: 0.5rem;
+              margin-bottom: 0.5rem;
+              font-size: 0.875rem;
+
+              &:last-child {
+                margin-bottom: 0;
+              }
+
+              .credential-label {
+                color: #525252;
+                font-weight: 500;
+                min-width: 70px;
+              }
+
+              code {
+                background: #ffffff;
+                padding: 0.25rem 0.75rem;
+                border: 1px solid #e0e0e0;
+                font-family: 'IBM Plex Mono', monospace;
+                color: #161616;
+                font-size: 0.8125rem;
+                flex: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .login-page {
+    padding: 1rem;
+
+    .login-container {
+      .login-card {
+        padding: 2rem 1.5rem;
+
+        .login-footer {
+          .credentials-grid {
+            .credential-card {
+              .credential-info {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.25rem;
+
+                .credential-label {
+                  font-size: 0.75rem;
+                }
+
+                code {
+                  width: 100%;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

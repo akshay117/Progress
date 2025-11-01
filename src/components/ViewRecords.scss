@@ -1,0 +1,299 @@
+.view-records-container {
+  max-width: 1400px;
+  margin: 0 auto;
+
+  .page-title {
+    font-size: 2rem;
+    font-weight: 300;
+    color: #161616;
+    margin-bottom: 2rem;
+  }
+
+  .notification {
+    margin-bottom: 1.5rem;
+  }
+
+  // Prominent Search Section
+  .search-section {
+    background: linear-gradient(135deg, #f4f4f4 0%, #ffffff 100%);
+    border: 2px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+    .search-box-large {
+      margin-bottom: 0.75rem;
+
+      .cds--search {
+        width: 100%;
+        max-width: 100%;
+      }
+
+      .cds--search-input {
+        height: 3.5rem;
+        font-size: 1.125rem;
+        padding: 1rem 3rem;
+        border: 2px solid #e0e0e0 !important;
+        border-radius: 4px;
+        background: #ffffff;
+        transition: all 0.2s ease;
+
+        &:focus {
+          outline: 2px solid #0f62fe !important;
+          outline-offset: -2px;
+          border-color: #0f62fe !important;
+          box-shadow: 0 2px 8px rgba(15, 98, 254, 0.15);
+        }
+
+        &::placeholder {
+          font-size: 1rem;
+          color: #8d8d8d;
+        }
+      }
+
+      .cds--search-magnifier-icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        left: 1rem;
+      }
+
+      .cds--search-close {
+        width: 1.5rem;
+        height: 1.5rem;
+        right: 1rem;
+
+        &::before {
+          width: 1.5rem;
+          height: 1.5rem;
+        }
+      }
+    }
+
+    .search-hint {
+      font-size: 0.875rem;
+      color: #525252;
+      padding-left: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      &::before {
+        content: '💡';
+        font-size: 1rem;
+      }
+    }
+  }
+
+  .view-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+    .view-mode-toggle {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .records-info {
+      color: #525252;
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+  }
+
+  // Card View Styles
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+
+    .record-card {
+      padding: 0 !important;
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      transition: all 0.2s ease;
+
+      &:hover {
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+      }
+
+      .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        border-bottom: 1px solid #e0e0e0;
+        background: #f4f4f4;
+
+        .vehicle-number {
+          font-size: 1rem;
+          font-weight: 600;
+          color: #161616;
+          font-family: 'IBM Plex Mono', monospace;
+        }
+      }
+
+      .card-body {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+
+        .card-field {
+          display: flex;
+          justify-content: space-between;
+          align-items: start;
+          gap: 1rem;
+
+          .label {
+            font-size: 0.75rem;
+            color: #525252;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            min-width: 70px;
+          }
+
+          .value {
+            font-size: 0.875rem;
+            color: #161616;
+            text-align: right;
+            flex: 1;
+            word-break: break-word;
+          }
+        }
+      }
+
+      .card-footer {
+        padding: 0.75rem 1rem;
+        border-top: 1px solid #e0e0e0;
+        background: #fafafa;
+        display: flex;
+        justify-content: flex-end;
+        gap: 0.5rem;
+      }
+    }
+  }
+
+  // Table View Styles
+  .cds--data-table-container {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 2rem;
+  }
+
+  .cds--toolbar-search-container {
+    input {
+      &:focus {
+        outline: 2px solid #0f62fe !important;
+      }
+    }
+  }
+
+  .cds--btn--ghost {
+    color: #0f62fe;
+
+    &:hover {
+      color: #0f62fe;
+      background-color: rgba(15, 98, 254, 0.1);
+    }
+  }
+
+  // Pagination
+  .cds--pagination {
+    margin-top: 2rem;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+  }
+
+  // Edit Modal
+  .edit-modal-content {
+    .record-info-header {
+      padding-bottom: 1rem;
+      margin-bottom: 1.5rem;
+      border-bottom: 1px solid #e0e0e0;
+
+      .info-text {
+        font-size: 0.875rem;
+        color: #525252;
+        margin: 0;
+      }
+    }
+
+    .modal-notification {
+      margin-bottom: 1rem;
+    }
+
+    .edit-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1.25rem;
+
+      .cds--text-input,
+      .cds--date-picker__input {
+        &:focus {
+          outline: 2px solid #0f62fe !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .view-records-container {
+    .search-section {
+      padding: 1.5rem;
+
+      .search-box-large {
+        .cds--search-input {
+          height: 3rem;
+          font-size: 1rem;
+          padding: 0.75rem 2.5rem;
+
+          &::placeholder {
+            font-size: 0.875rem;
+          }
+        }
+
+        .cds--search-magnifier-icon {
+          width: 1.25rem;
+          height: 1.25rem;
+          left: 0.75rem;
+        }
+      }
+
+      .search-hint {
+        font-size: 0.75rem;
+      }
+    }
+
+    .view-controls {
+      flex-direction: column;
+      align-items: stretch;
+
+      .view-mode-toggle {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .records-info {
+        text-align: center;
+      }
+    }
+
+    .cards-container {
+      grid-template-columns: 1fr;
+    }
+
+    .page-title {
+      font-size: 1.5rem;
+    }
+  }
+}

@@ -1,0 +1,471 @@
+🚀 Starting WeCare Insurance API (Spring Boot)...
+
+✅ Starting server...
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.wecaare:insurance-portal >--------------------
+[INFO] Building WeCare Insurance Portal 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.2.0:run (default-cli) > test-compile @ insurance-portal >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ insurance-portal ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.11.0:compile (default-compile) @ insurance-portal ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ insurance-portal ---
+[INFO] skip non existing resourceDirectory /Users/akshayvanil/Desktop/wecaare/backend/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.11.0:testCompile (default-testCompile) @ insurance-portal ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] <<< spring-boot:3.2.0:run (default-cli) < test-compile @ insurance-portal <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.2.0:run (default-cli) @ insurance-portal ---
+[INFO] Attaching agents: []
+==================================================
+🚀 WeCare Insurance API Server (Spring Boot)
+==================================================
+==================================================
+🚀 WeCare Insurance API Server (Spring Boot)
+==================================================
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-11-01 16:14:26 - Starting InsuranceApplication using Java 21.0.7 with PID 24318 (/Users/akshayvanil/Desktop/wecaare/backend/target/classes started by akshayvanil in /Users/akshayvanil/Desktop/wecaare/backend)
+2025-11-01 16:14:26 - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-01 16:14:26 - No active profile set, falling back to 1 default profile: "default"
+2025-11-01 16:14:26 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-01 16:14:26 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-01 16:14:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-01 16:14:26 - Finished Spring Data repository scanning in 15 ms. Found 3 JPA repository interfaces.
+2025-11-01 16:14:26 - Tomcat initialized with port 5001 (http)
+2025-11-01 16:14:26 - Starting service [Tomcat]
+2025-11-01 16:14:26 - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-01 16:14:26 - Initializing Spring embedded WebApplicationContext
+2025-11-01 16:14:26 - Root WebApplicationContext: initialization completed in 409 ms
+2025-11-01 16:14:26 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-01 16:14:26 - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-11-01 16:14:26 - HHH000026: Second-level cache disabled
+2025-11-01 16:14:26 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-01 16:14:26 - HikariPool-1 - Starting...
+2025-11-01 16:14:27 - HikariPool-1 - Added connection org.sqlite.jdbc4.JDBC4Connection@4c8c639f
+2025-11-01 16:14:27 - HikariPool-1 - Start completed.
+2025-11-01 16:14:27 - HHH90006001: Encountered incubating setting [hibernate.type.preferred_instant_jdbc_type].  See javadoc on corresponding `org.hibernate.cfg.AvailableSettings` constant for details.
+2025-11-01 16:14:27 - HHH90006001: Encountered incubating setting [hibernate.type.preferred_instant_jdbc_type].  See javadoc on corresponding `org.hibernate.cfg.AvailableSettings` constant for details.
+2025-11-01 16:14:27 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-01 16:14:27 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-01 16:14:27 - Filter 'jwtAuthenticationFilter' configured for use
+2025-11-01 16:14:27 - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-01 16:14:27 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-01 16:14:27 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5c1dad9e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@173a87a1, org.springframework.security.web.context.SecurityContextHolderFilter@2403cd09, org.springframework.security.web.header.HeaderWriterFilter@62dd8ceb, org.springframework.web.filter.CorsFilter@663ca0b3, org.springframework.security.web.authentication.logout.LogoutFilter@1cb8e2af, com.wecaare.insurance.security.JwtAuthenticationFilter@ec9f8b9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f87b2fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@663e5d1c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7e0f1874, org.springframework.security.web.session.SessionManagementFilter@d99e227, org.springframework.security.web.access.ExceptionTranslationFilter@6435c672, org.springframework.security.web.access.intercept.AuthorizationFilter@7547d561]
+2025-11-01 16:14:28 - LiveReload server is running on port 35729
+2025-11-01 16:14:28 - Tomcat started on port 5001 (http) with context path '/api'
+2025-11-01 16:14:28 - Started InsuranceApplication in 1.765 seconds (process running for 1.887)
+==================================================
+✅ Server started successfully!
+📊 API Context: /api
+==================================================
+2025-11-01 16:14:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-01 16:14:36 - Initializing Servlet 'dispatcherServlet'
+2025-11-01 16:14:36 - Completed initialization in 1 ms
+2025-11-01 16:14:36 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:14:36 - Securing OPTIONS /analytics/monthly-performance?year=2025
+2025-11-01 16:14:36 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:14:36 - Securing OPTIONS /analytics/monthly-performance?year=2025
+2025-11-01 16:14:36 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:14:36 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:14:37 - Cache miss for REQUEST dispatch to '/api/insurance-records/expiring' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-11-01 16:14:37 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:14:37 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:14:37 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:14:37 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:14:37 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:14:37 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:14:44 - Securing POST /auth/login
+2025-11-01 16:14:44 - Set SecurityContextHolder to anonymous SecurityContext
+2025-11-01 16:14:44 - Secured POST /auth/login
+2025-11-01 16:14:44 - Authenticated user
+2025-11-01 16:14:44 - Securing POST /insurance-records
+2025-11-01 16:14:44 - Secured POST /insurance-records
+2025-11-01 16:14:46 - Securing GET /insurance-records
+2025-11-01 16:14:46 - Secured GET /insurance-records
+2025-11-01 16:14:47 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:14:47 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:14:47 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:14:47 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:14:47 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:14:47 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:14:57 - Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2025-11-01 16:14:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-01 16:14:57 - HikariPool-1 - Shutdown initiated...
+2025-11-01 16:14:57 - HikariPool-1 - Shutdown completed.
+==================================================
+🚀 WeCare Insurance API Server (Spring Boot)
+==================================================
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-11-01 16:14:57 - Starting InsuranceApplication using Java 21.0.7 with PID 24318 (/Users/akshayvanil/Desktop/wecaare/backend/target/classes started by akshayvanil in /Users/akshayvanil/Desktop/wecaare/backend)
+2025-11-01 16:14:57 - Running with Spring Boot v3.2.0, Spring v6.1.1
+2025-11-01 16:14:57 - No active profile set, falling back to 1 default profile: "default"
+2025-11-01 16:14:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-01 16:14:57 - Finished Spring Data repository scanning in 3 ms. Found 3 JPA repository interfaces.
+2025-11-01 16:14:57 - Tomcat initialized with port 5001 (http)
+2025-11-01 16:14:57 - Starting service [Tomcat]
+2025-11-01 16:14:57 - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-01 16:14:57 - Initializing Spring embedded WebApplicationContext
+2025-11-01 16:14:57 - Root WebApplicationContext: initialization completed in 115 ms
+2025-11-01 16:14:57 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-01 16:14:57 - HHH000026: Second-level cache disabled
+2025-11-01 16:14:57 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-01 16:14:57 - HikariPool-2 - Starting...
+2025-11-01 16:14:57 - HikariPool-2 - Added connection org.sqlite.jdbc4.JDBC4Connection@483398dc
+2025-11-01 16:14:57 - HikariPool-2 - Start completed.
+2025-11-01 16:14:57 - HHH90006001: Encountered incubating setting [hibernate.type.preferred_instant_jdbc_type].  See javadoc on corresponding `org.hibernate.cfg.AvailableSettings` constant for details.
+2025-11-01 16:14:57 - HHH90006001: Encountered incubating setting [hibernate.type.preferred_instant_jdbc_type].  See javadoc on corresponding `org.hibernate.cfg.AvailableSettings` constant for details.
+2025-11-01 16:14:57 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-01 16:14:57 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-01 16:14:57 - Filter 'jwtAuthenticationFilter' configured for use
+2025-11-01 16:14:57 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-01 16:14:57 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@119db2e0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@326b04cc, org.springframework.security.web.context.SecurityContextHolderFilter@3d25ae45, org.springframework.security.web.header.HeaderWriterFilter@d429a38, org.springframework.web.filter.CorsFilter@59320c75, org.springframework.security.web.authentication.logout.LogoutFilter@53de016e, com.wecaare.insurance.security.JwtAuthenticationFilter@670d4bf7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f401aaf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6cad025, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3faf52e2, org.springframework.security.web.session.SessionManagementFilter@5ae3eeac, org.springframework.security.web.access.ExceptionTranslationFilter@336224ba, org.springframework.security.web.access.intercept.AuthorizationFilter@1c4f468f]
+2025-11-01 16:14:57 - LiveReload server is running on port 35729
+2025-11-01 16:14:57 - Tomcat started on port 5001 (http) with context path '/api'
+2025-11-01 16:14:57 - Started InsuranceApplication in 0.351 seconds (process running for 31.342)
+2025-11-01 16:14:57 - Condition evaluation unchanged
+==================================================
+✅ Server started successfully!
+📊 API Context: /api
+==================================================
+2025-11-01 16:15:44 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-01 16:15:44 - Initializing Servlet 'dispatcherServlet'
+2025-11-01 16:15:44 - Completed initialization in 1 ms
+2025-11-01 16:15:44 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:15:44 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:15:44 - Cache miss for REQUEST dispatch to '/api/insurance-records' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-11-01 16:15:44 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:15:46 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:15:46 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:15:46 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:15:46 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:15:53 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:15:53 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:15:53 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:03 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:03 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:03 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:09 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:09 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:09 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:22 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:22 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:22 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:48 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:48 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:16:48 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:18 - Securing OPTIONS /auth/verify
+2025-11-01 16:18:18 - Securing OPTIONS /auth/verify
+2025-11-01 16:18:18 - Securing POST /auth/verify
+2025-11-01 16:18:18 - Securing POST /auth/verify
+2025-11-01 16:18:18 - Secured POST /auth/verify
+2025-11-01 16:18:18 - Secured POST /auth/verify
+2025-11-01 16:18:18 - Securing OPTIONS /analytics/monthly-performance?year=2025
+2025-11-01 16:18:18 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:18:18 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:18:18 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:18:18 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:18:18 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:18:18 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:18:18 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:18:18 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:18:18 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:18:39 - Securing OPTIONS /insurance-records
+2025-11-01 16:18:39 - Securing POST /insurance-records
+2025-11-01 16:18:39 - Secured POST /insurance-records
+2025-11-01 16:18:42 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:42 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:42 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:42 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:42 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:42 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:47 - Securing OPTIONS /insurance-records/4979
+2025-11-01 16:18:47 - Securing DELETE /insurance-records/4979
+2025-11-01 16:18:47 - Secured DELETE /insurance-records/4979
+2025-11-01 16:18:47 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:47 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:47 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:49 - Securing OPTIONS /insurance-records/4978
+2025-11-01 16:18:49 - Securing DELETE /insurance-records/4978
+2025-11-01 16:18:49 - Secured DELETE /insurance-records/4978
+2025-11-01 16:18:49 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:49 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:51 - Securing OPTIONS /insurance-records/4977
+2025-11-01 16:18:51 - Securing DELETE /insurance-records/4977
+2025-11-01 16:18:51 - Secured DELETE /insurance-records/4977
+2025-11-01 16:18:51 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:51 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:53 - Securing OPTIONS /insurance-records/4976
+2025-11-01 16:18:53 - Securing DELETE /insurance-records/4976
+2025-11-01 16:18:53 - Secured DELETE /insurance-records/4976
+2025-11-01 16:18:53 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:53 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:53 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:56 - Securing OPTIONS /insurance-records/4975
+2025-11-01 16:18:56 - Securing DELETE /insurance-records/4975
+2025-11-01 16:18:56 - Secured DELETE /insurance-records/4975
+2025-11-01 16:18:56 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:56 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:58 - Securing OPTIONS /insurance-records/4974
+2025-11-01 16:18:58 - Securing DELETE /insurance-records/4974
+2025-11-01 16:18:58 - Secured DELETE /insurance-records/4974
+2025-11-01 16:18:58 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:18:58 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:00 - Securing OPTIONS /insurance-records/4973
+2025-11-01 16:19:00 - Securing DELETE /insurance-records/4973
+2025-11-01 16:19:00 - Secured DELETE /insurance-records/4973
+2025-11-01 16:19:00 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:00 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:00 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:03 - Securing OPTIONS /insurance-records/4972
+2025-11-01 16:19:03 - Securing DELETE /insurance-records/4972
+2025-11-01 16:19:03 - Secured DELETE /insurance-records/4972
+2025-11-01 16:19:03 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:03 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:07 - Securing OPTIONS /insurance-records/4970
+2025-11-01 16:19:07 - Securing DELETE /insurance-records/4970
+2025-11-01 16:19:07 - Secured DELETE /insurance-records/4970
+2025-11-01 16:19:07 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:07 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:07 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:11 - Securing OPTIONS /insurance-records/4971
+2025-11-01 16:19:11 - Securing DELETE /insurance-records/4971
+2025-11-01 16:19:11 - Secured DELETE /insurance-records/4971
+2025-11-01 16:19:11 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:11 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:20 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:19:20 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:19:20 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:20 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:20 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:20 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:20 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:20 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:20 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:21 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:21 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:21 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:21 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:21 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:21 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:21 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:23 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:23 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:23 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:23 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:23 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:23 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:23 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:23 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:25 - Securing OPTIONS /insurance-records/1671/notify
+2025-11-01 16:19:25 - Securing PUT /insurance-records/1671/notify
+2025-11-01 16:19:25 - Secured PUT /insurance-records/1671/notify
+2025-11-01 16:19:25 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:19:25 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:25 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:30 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:30 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:30 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:30 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:30 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:30 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:30 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:30 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:30 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:30 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:45 - Securing OPTIONS /insurance-records/1711/notify
+2025-11-01 16:19:45 - Securing PUT /insurance-records/1711/notify
+2025-11-01 16:19:45 - Secured PUT /insurance-records/1711/notify
+2025-11-01 16:19:45 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:19:45 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:45 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:48 - Securing OPTIONS /auth/verify
+2025-11-01 16:19:48 - Securing OPTIONS /auth/verify
+2025-11-01 16:19:48 - Securing POST /auth/verify
+2025-11-01 16:19:48 - Securing POST /auth/verify
+2025-11-01 16:19:48 - Secured POST /auth/verify
+2025-11-01 16:19:48 - Secured POST /auth/verify
+2025-11-01 16:19:48 - Securing OPTIONS /analytics/monthly-performance?year=2025
+2025-11-01 16:19:48 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:19:48 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:48 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:19:48 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:48 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:19:48 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:19:48 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:19:48 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:19:49 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:49 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:49 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:49 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:49 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:19:49 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:00 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:20:00 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:20:00 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:20:00 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:20:00 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:20:00 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:20:11 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:11 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:11 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:11 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:12 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:12 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:31 - Securing OPTIONS /admin/insurance-records/1711/financials
+2025-11-01 16:20:31 - Securing PUT /admin/insurance-records/1711/financials
+2025-11-01 16:20:31 - Secured PUT /admin/insurance-records/1711/financials
+2025-11-01 16:20:31 - Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.wecaare.insurance.controller.AdminController.updateFinancials(java.lang.Long,com.wecaare.insurance.dto.FinancialDetailsRequest); target is of class [com.wecaare.insurance.controller.AdminController]
+2025-11-01 16:20:31 - Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.wecaare.insurance.controller.AdminController.updateFinancials(java.lang.Long,com.wecaare.insurance.dto.FinancialDetailsRequest); target is of class [com.wecaare.insurance.controller.AdminController]
+2025-11-01 16:20:31 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:31 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:31 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:35 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:35 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:35 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:35 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:37 - Securing OPTIONS /analytics/monthly-performance?year=2025
+2025-11-01 16:20:37 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:20:37 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:20:37 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:20:37 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:20:37 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:20:37 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:20:37 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:20:37 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:20:37 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:20:39 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:39 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:39 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:39 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:39 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:39 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:54 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:20:54 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:20:54 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:20:54 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:20:54 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:20:54 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:20:55 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:55 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:55 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:55 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:55 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:20:55 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:21:09 - Securing OPTIONS /analytics/monthly-performance?year=2025
+2025-11-01 16:21:09 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:09 - Securing OPTIONS /insurance-records/expiring?days=30
+2025-11-01 16:21:09 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:09 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:21:09 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:21:09 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:09 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:09 - Securing GET /insurance-records/expiring?days=30
+2025-11-01 16:21:09 - Secured GET /insurance-records/expiring?days=30
+2025-11-01 16:21:12 - Securing OPTIONS /analytics/monthly-performance?year=2024
+2025-11-01 16:21:12 - Securing GET /analytics/monthly-performance?year=2024
+2025-11-01 16:21:12 - Secured GET /analytics/monthly-performance?year=2024
+2025-11-01 16:21:13 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:13 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:13 - Securing OPTIONS /analytics/monthly-performance?year=2026
+2025-11-01 16:21:13 - Securing GET /analytics/monthly-performance?year=2026
+2025-11-01 16:21:13 - Secured GET /analytics/monthly-performance?year=2026
+2025-11-01 16:21:14 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:14 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:14 - Securing GET /analytics/monthly-performance?year=2024
+2025-11-01 16:21:14 - Secured GET /analytics/monthly-performance?year=2024
+2025-11-01 16:21:15 - Securing OPTIONS /analytics/monthly-performance?year=2023
+2025-11-01 16:21:15 - Securing GET /analytics/monthly-performance?year=2023
+2025-11-01 16:21:15 - Secured GET /analytics/monthly-performance?year=2023
+2025-11-01 16:21:15 - Securing GET /analytics/monthly-performance?year=2024
+2025-11-01 16:21:15 - Secured GET /analytics/monthly-performance?year=2024
+2025-11-01 16:21:16 - Securing OPTIONS /analytics/monthly-performance?year=2025
+2025-11-01 16:21:16 - Securing GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:16 - Secured GET /analytics/monthly-performance?year=2025
+2025-11-01 16:21:16 - Securing GET /analytics/monthly-performance?year=2026
+2025-11-01 16:21:16 - Secured GET /analytics/monthly-performance?year=2026
+2025-11-01 16:21:17 - Securing GET /analytics/monthly-performance?year=2024
+2025-11-01 16:21:17 - Secured GET /analytics/monthly-performance?year=2024
+2025-11-01 16:21:17 - Securing GET /analytics/monthly-performance?year=2023
+2025-11-01 16:21:17 - Secured GET /analytics/monthly-performance?year=2023
+2025-11-01 16:21:20 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:21:20 - Securing OPTIONS /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:21:20 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:21:20 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:21:20 - Securing GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:21:20 - Secured GET /insurance-records?search=&page=1&limit=10000
+2025-11-01 16:29:04 - Restarting due to 30 class path changes (0 additions, 30 deletions, 0 modifications)
+2025-11-01 16:29:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-11-01 16:29:04 - HikariPool-2 - Shutdown initiated...
+2025-11-01 16:29:04 - HikariPool-2 - Shutdown completed.
+==================================================
+🚀 WeCare Insurance API Server (Spring Boot)
+==================================================
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-11-01 16:29:04 - Starting InsuranceApplication using Java 21.0.7 with PID 24318 (started by akshayvanil in /Users/akshayvanil/Desktop/wecaare/backend)
+2025-11-01 16:29:04 - No active profile set, falling back to 1 default profile: "default"
+2025-11-01 16:29:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-01 16:29:04 - Finished Spring Data repository scanning in 0 ms. Found 0 JPA repository interfaces.
+2025-11-01 16:29:04 - Tomcat initialized with port 8080 (http)
+2025-11-01 16:29:04 - Starting service [Tomcat]
+2025-11-01 16:29:04 - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-01 16:29:04 - Initializing Spring embedded WebApplicationContext
+2025-11-01 16:29:04 - Root WebApplicationContext: initialization completed in 115 ms
+2025-11-01 16:29:04 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-11-01 16:29:04 - Stopping service [Tomcat]
+2025-11-01 16:29:04 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-01 16:29:04 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+

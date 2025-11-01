@@ -1,0 +1,164 @@
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+
+  .dashboard-header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+    margin-bottom: 2rem;
+
+    .datetime-section {
+      background: linear-gradient(135deg, #0f62fe 0%, #0353e9 100%);
+      padding: 2rem;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+      .date-display {
+        font-size: 1.125rem;
+        font-weight: 300;
+        letter-spacing: 0.5px;
+        margin-bottom: 0.5rem;
+        opacity: 0.9;
+      }
+
+      .time-display {
+        font-size: 2.5rem;
+        font-weight: 300;
+        letter-spacing: -1px;
+      }
+    }
+
+    .stats-quick {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      align-content: start;
+
+      &.staff-view {
+        grid-template-columns: 1fr;
+      }
+
+      .stat-box {
+        background: #ffffff;
+        padding: 1.5rem;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+
+        .stat-label {
+          font-size: 0.75rem;
+          color: #525252;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+          font-weight: 600;
+        }
+
+        .stat-value {
+          font-size: 1.75rem;
+          font-weight: 300;
+          color: #0f62fe;
+          letter-spacing: -0.5px;
+        }
+      }
+    }
+  }
+
+  .performance-chart {
+    margin-top: 2rem;
+    background: #ffffff;
+    padding: 2rem;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1.5rem;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .chart-title {
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: #525252;
+      margin: 0;
+    }
+
+    .year-selector {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+
+      .year-button {
+        padding: 0.5rem 1rem;
+        border: 1px solid #e0e0e0;
+        background: #ffffff;
+        color: #525252;
+        font-size: 0.875rem;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.2s ease;
+        border-radius: 0;
+
+        &:hover {
+          background: #f4f4f4;
+          border-color: #0f62fe;
+        }
+
+        &.active {
+          background: #0f62fe;
+          color: #ffffff;
+          border-color: #0f62fe;
+        }
+      }
+    }
+
+    .chart-loading,
+    .chart-empty {
+      padding: 3rem;
+      text-align: center;
+      color: #525252;
+      font-size: 0.875rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-container {
+    .dashboard-header {
+      grid-template-columns: 1fr;
+
+      .datetime-section {
+        padding: 1.5rem;
+
+        .time-display {
+          font-size: 2rem;
+        }
+      }
+
+      .stats-quick {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .performance-chart {
+      padding: 1rem;
+      
+      .chart-header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+  }
+}

@@ -1,0 +1,170 @@
+.add-insurance-container {
+  max-width: 800px;
+  margin: 0 auto;
+
+  .page-header-with-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+    .page-title {
+      font-size: 2.25rem;
+      font-weight: 300;
+      margin: 0;
+      color: #161616;
+      letter-spacing: -0.5px;
+    }
+
+    .expiring-alert {
+      font-weight: 600;
+      font-size: 0.875rem;
+      padding: 0.5rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      animation: pulse 2s ease-in-out infinite;
+
+      @keyframes pulse {
+        0%, 100% {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+
+  .page-title {
+    font-size: 2.25rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    color: #161616;
+    letter-spacing: -0.5px;
+  }
+
+  .notification {
+    margin-bottom: 3rem;
+    border-radius: 0;
+    border-left: 4px solid #24a148;
+  }
+
+  .insurance-form {
+    .form-section {
+      background: #ffffff;
+      padding: 3rem;
+      border-radius: 0;
+      margin-bottom: 3rem;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      border: 1px solid #e0e0e0;
+      transition: none;
+      
+      &:hover {
+        transform: none;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      }
+
+      &.admin-section {
+        border-left: 4px solid #0f62fe;
+        background: #f4f4f4;
+      }
+
+      .section-title {
+        font-size: 0.875rem;
+        font-weight: 600;
+        margin-bottom: 2rem;
+        color: #525252;
+        border-bottom: none;
+        border-image: none;
+        padding-bottom: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        
+        &::before {
+          display: none;
+        }
+      }
+
+      .cds--text-input,
+      .cds--select-input,
+      .cds--date-picker__input,
+      .cds--number input {
+        height: 3.5rem;
+        font-size: 1rem;
+        border-radius: 0 !important;
+        border: 1px solid #e0e0e0 !important;
+        
+        &:focus {
+          outline: 2px solid #0f62fe !important;
+          outline-offset: -2px !important;
+          box-shadow: none !important;
+        }
+      }
+
+      .cds--label {
+        font-size: 0.875rem;
+        font-weight: 500;
+        color: #161616;
+        margin-bottom: 0.5rem;
+      }
+
+      .cds--form__helper-text {
+        font-size: 0.75rem;
+        color: #525252;
+        margin-top: 0.25rem;
+      }
+    }
+
+    .button-group {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+      
+      button {
+        min-width: 160px;
+        height: 3.5rem;
+        border-radius: 0;
+        font-weight: 600;
+        font-size: 0.875rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        transition: all 0.2s ease;
+        
+        &:hover {
+          transform: none;
+          box-shadow: none;
+        }
+      }
+
+      .cds--btn--primary {
+        background-color: #0f62fe !important;
+        border-color: #0f62fe !important;
+        
+        &:hover {
+          background-color: #0353e9 !important;
+        }
+
+        &:active {
+          background-color: #002d9c !important;
+        }
+      }
+
+      .cds--btn--danger {
+        background-color: #da1e28 !important;
+        border-color: #da1e28 !important;
+        
+        &:hover {
+          background-color: #ba1b23 !important;
+        }
+
+        &:active {
+          background-color: #750e13 !important;
+        }
+      }
+    }
+  }
+}
+

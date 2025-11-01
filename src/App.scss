@@ -1,0 +1,185 @@
+.custom-header {
+  background: #ffffff !important;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.05) !important;
+  border-bottom: 1px solid #e0e0e0 !important;
+  
+  .header-brand {
+    font-weight: 600 !important;
+    font-size: 1.5rem !important;
+    color: #0f62fe !important;
+    letter-spacing: -0.5px !important;
+  }
+
+  a {
+    color: #161616 !important;
+    font-weight: 500 !important;
+    font-size: 0.9375rem !important;
+    
+    &[aria-current="page"] {
+      color: #0f62fe !important;
+      border-bottom: 2px solid #0f62fe !important;
+    }
+  }
+
+  .role-toggle {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-right: 1.5rem;
+    padding: 0 1.5rem;
+    border-right: 1px solid #e0e0e0;
+
+    .logout-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 0.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #da1e28;
+      transition: all 0.2s ease;
+
+      &:hover {
+        color: #ba1b23;
+        transform: scale(1.1);
+      }
+
+      svg {
+        fill: currentColor;
+      }
+    }
+
+    .role-label {
+      color: #0f62fe;
+      font-weight: 700;
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      min-width: 50px;
+    }
+
+    .cds--toggle__switch {
+      margin: 0;
+    }
+  }
+
+  .user-info {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+    padding: 0 1rem;
+    border-right: 1px solid #e0e0e0;
+
+    .user-details {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.25rem;
+
+      .username {
+        font-size: 0.875rem;
+        font-weight: 600;
+        color: #161616;
+        text-transform: capitalize;
+      }
+
+      .role-badge {
+        font-size: 0.625rem;
+        font-weight: 700;
+        letter-spacing: 0.5px;
+        padding: 0.125rem 0.5rem;
+        border-radius: 2px;
+        text-transform: uppercase;
+
+        &.admin-role {
+          background-color: #0f62fe;
+          color: #ffffff;
+        }
+
+        &.staff-role {
+          background-color: #24a148;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+
+  // Make search icon grey for subtle appearance
+  .cds--header__action[aria-label="Search"] {
+    svg {
+      fill: #8d8d8d !important;
+    }
+
+    &:hover {
+      background-color: #f4f4f4 !important;
+      
+      svg {
+        fill: #525252 !important;
+      }
+    }
+
+    &:active {
+      svg {
+        fill: #161616 !important;
+      }
+    }
+  }
+
+  .cds--header__action {
+    svg {
+      fill: #525252 !important;
+    }
+  }
+}
+
+.app-content {
+  padding: 4rem 3rem;
+  min-height: calc(100vh - 48px - 350px); // Adjust for header and footer
+  background: #fafafa;
+  flex: 1;
+  
+  > * {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.admin-login-modal {
+  .modal-description {
+    font-size: 0.9375rem;
+    color: #525252;
+    margin-bottom: 1.5rem;
+  }
+
+  .password-error {
+    margin-bottom: 1rem;
+    border-radius: 0;
+  }
+
+  .cds--text-input-wrapper {
+    margin-top: 1rem;
+  }
+
+  .password-hint {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background: #f4f4f4;
+    border-left: 3px solid #0f62fe;
+
+    small {
+      font-size: 0.8125rem;
+      color: #525252;
+
+      code {
+        background: #ffffff;
+        padding: 0.25rem 0.5rem;
+        border: 1px solid #e0e0e0;
+        font-family: 'IBM Plex Mono', monospace;
+        color: #0f62fe;
+        font-weight: 600;
+      }
+    }
+  }
+}
+

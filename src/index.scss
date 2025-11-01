@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fafafa;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+// Add smooth scrolling
+html {
+  scroll-behavior: smooth;
+}
+
+// Clean input styles
+.cds--text-input,
+.cds--select-input,
+.cds--number input,
+.cds--date-picker__input {
+  border-radius: 0 !important;
+  transition: all 0.2s ease !important;
+  border: 1px solid #e0e0e0 !important;
+  font-size: 1rem !important;
+  
+  &:focus {
+    outline: 2px solid #667eea !important;
+    outline-offset: -2px !important;
+    box-shadow: none !important;
+  }
+}
+
+.cds--btn {
+  border-radius: 0 !important;
+  font-weight: 600 !important;
+  transition: all 0.2s ease !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.cds--btn--primary {
+  background: #667eea !important;
+  border: none !important;
+  
+  &:hover {
+    background: #5568d3 !important;
+    transform: none;
+    box-shadow: none !important;
+  }
+}
+
+.cds--btn--secondary {
+  border: 1px solid #e0e0e0 !important;
+  
+  &:hover {
+    background: #f4f4f4 !important;
+  }
+}
+
+// Tag styles
+.cds--tag {
+  border-radius: 0 !important;
+  font-weight: 600 !important;
+  font-size: 0.75rem !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+// Modal styles
+.cds--modal-container {
+  border-radius: 0 !important;
+}
+
+.cds--modal-header {
+  border-bottom: 1px solid #e0e0e0 !important;
+  padding: 1.5rem !important;
+}
+
+.cds--modal-content {
+  padding: 2rem !important;
+}
+
+.cds--modal-footer {
+  border-top: 1px solid #e0e0e0 !important;
+  padding: 1.5rem !important;
+}
+
+// Fade in animation
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.add-insurance-container,
+.view-records-container,
+.admin-panel-container {
+  animation: fadeIn 0.3s ease-out;
+}
+

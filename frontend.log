@@ -1,0 +1,728 @@
+
+> insurance-portal@1.0.0 dev
+> vite
+
+[33mThe CJS build of Vite's Node API is deprecated. See https://vite.dev/guide/troubleshooting.html#vite-cjs-node-api-deprecated for more details.[39m
+
+  VITE v5.4.21  ready in 124 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: use --host to expose
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+9:09:18 PM [vite] hmr update /src/components/ViewRecords.jsx
+9:09:28 PM [vite] hmr update /src/components/ViewRecords.jsx
+9:09:34 PM [vite] hmr update /src/components/ViewRecords.jsx
+9:09:59 PM [vite] hmr update /src/components/ViewRecords.jsx
+9:10:07 PM [vite] hmr update /src/components/ViewRecords.jsx
+9:10:29 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:10:39 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:10:53 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:11:08 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+9:11:21 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+9:11:36 PM [vite] hmr update /src/components/GlobalSearch.jsx
+9:12:05 PM [vite] hmr update /src/components/ViewRecords.jsx
+9:12:05 PM [vite] hmr update /src/components/GlobalSearch.jsx
+9:12:05 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+9:12:05 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:15:35 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:15:42 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:16:05 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:16:14 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:19:17 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:20:57 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:21:45 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:32:38 PM [vite] hmr update /src/components/AdminPanel.jsx
+9:32:38 PM [vite] vite.config.js changed, restarting server...
+9:32:38 PM [vite] page reload index.html
+9:32:38 PM [vite] page reload src/main.jsx
+9:32:38 PM [vite] hmr update /src/App.jsx
+9:32:38 PM [vite] hmr update /src/index.scss
+9:32:38 PM [vite] hmr update /src/App.scss
+9:32:38 PM [vite] hmr update /src/components/AddInsurance.scss
+9:32:38 PM [vite] hmr update /src/components/AddInsurance.jsx
+9:32:38 PM [vite] hmr update /src/components/ViewRecords.jsx
+9:32:38 PM [vite] hmr update /src/components/AdminPanel.scss
+9:32:38 PM [vite] hmr update /src/components/Dashboard.jsx
+9:32:38 PM [vite] hmr update /src/App.jsx, /src/components/AdminPanel.jsx, /src/components/Login.jsx, /src/components/AddInsurance.jsx, /src/components/ExpiringPolicies.jsx, /src/components/ViewRecords.jsx, /src/components/GlobalSearch.jsx, /src/components/Dashboard.jsx
+9:32:38 PM [vite] hmr update /src/components/GlobalSearch.scss
+9:32:38 PM [vite] hmr update /src/components/Dashboard.scss
+9:32:38 PM [vite] hmr update /src/components/Login.scss
+9:32:38 PM [vite] hmr update /src/components/GlobalSearch.jsx
+9:32:38 PM [vite] hmr update /src/components/Login.jsx
+9:32:38 PM [vite] hmr update /src/components/Footer.scss
+9:32:38 PM [vite] hmr update /src/components/Footer.jsx
+9:32:38 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+9:32:38 PM [vite] hmr update /src/components/ExpiringPolicies.scss
+9:32:38 PM [vite] hmr update /src/components/ViewRecords.scss
+9:32:38 PM [vite] server restarted.
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:44:20 PM [vite] hmr update /src/components/AdminPanel.jsx
+3:44:21 PM [vite] vite.config.js changed, restarting server...
+3:44:21 PM [vite] page reload index.html
+3:44:21 PM [vite] page reload src/main.jsx
+3:44:21 PM [vite] hmr update /src/index.scss
+3:44:21 PM [vite] hmr update /src/App.jsx
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:44:21 PM [vite] hmr update /src/App.scss
+3:44:21 PM [vite] hmr update /src/components/AddInsurance.jsx
+3:44:21 PM [vite] hmr update /src/components/AddInsurance.scss
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:44:21 PM [vite] server restarted.
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:44:33 PM [vite] hmr update /src/components/AdminPanel.jsx
+3:44:36 PM [vite] vite.config.js changed, restarting server...
+3:44:36 PM [vite] server restarted.
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+3:47:15 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:47:25 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:47:25 PM [vite] Internal server error: /Users/akshayvanil/Desktop/wecaare/src/components/ViewRecords.jsx: Missing semicolon. (312:11)
+
+  310 |               </div>
+  311 |             </Tile>
+> 312 |           ))}
+      |            ^
+  313 |         </div>
+  314 |       )}
+  315 |
+  Plugin: vite:react-babel
+  File: /Users/akshayvanil/Desktop/wecaare/src/components/ViewRecords.jsx:312:11
+  310|                </div>
+  311|              </Tile>
+  312|            ))}
+     |             ^
+  313|          </div>
+  314|        )}
+      at constructor (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.semicolon (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6920:10)
+      at JSXParserMixin.parseReturnStatement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13219:12)
+      at JSXParserMixin.parseStatementContent (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseExprListItem (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12249:18)
+      at JSXParserMixin.parseCallExpressionArguments (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11316:22)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11250:29)
+      at JSXParserMixin.parseSubscript (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11184:19)
+      at JSXParserMixin.parseSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11158:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11149:17)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4661:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+3:47:33 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:47:51 PM [vite] hmr update /src/components/GlobalSearch.jsx
+3:47:51 PM [vite] Internal server error: /Users/akshayvanil/Desktop/wecaare/src/components/GlobalSearch.jsx: Missing semicolon. (151:17)
+
+  149 |                     </div>
+  150 |                   </Tile>
+> 151 |                 ))}
+      |                  ^
+  152 |               </div>
+  153 |             </>
+  154 |           )}
+  Plugin: vite:react-babel
+  File: /Users/akshayvanil/Desktop/wecaare/src/components/GlobalSearch.jsx:151:17
+  149|                      </div>
+  150|                    </Tile>
+  151|                  ))}
+     |                   ^
+  152|                </div>
+  153|              </>
+      at constructor (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.semicolon (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6920:10)
+      at JSXParserMixin.parseReturnStatement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13219:12)
+      at JSXParserMixin.parseStatementContent (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseExprListItem (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12249:18)
+      at JSXParserMixin.parseCallExpressionArguments (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11316:22)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11250:29)
+      at JSXParserMixin.parseSubscript (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11184:19)
+      at JSXParserMixin.parseSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11158:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11149:17)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4661:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+3:48:03 PM [vite] hmr update /src/components/GlobalSearch.jsx
+3:48:12 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+3:48:29 PM [vite] hmr update /src/components/GlobalSearch.jsx
+3:48:29 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:48:29 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+3:48:57 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:49:03 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:49:03 PM [vite] Internal server error: /Users/akshayvanil/Desktop/wecaare/src/components/ViewRecords.jsx: Unexpected token, expected "," (301:13)
+
+  299 |               </div>
+  300 |             </Tile>
+> 301 |             );
+      |              ^
+  302 |           })}
+  303 |         </div>
+  304 |       )}
+  Plugin: vite:react-babel
+  File: /Users/akshayvanil/Desktop/wecaare/src/components/ViewRecords.jsx:301:13
+  299|                </div>
+  300|              </Tile>
+  301|              );
+     |               ^
+  302|            })}
+  303|          </div>
+      at constructor (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.parseCallExpressionArguments (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11307:14)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11250:29)
+      at JSXParserMixin.parseSubscript (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11184:19)
+      at JSXParserMixin.parseSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11158:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11149:17)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4661:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11050:34)
+      at JSXParserMixin.parseExprOpRightExpr (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11045:21)
+      at JSXParserMixin.parseExprOp (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11011:27)
+      at JSXParserMixin.parseExprOp (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11017:21)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10972:17)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:39
+3:49:06 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:49:12 PM [vite] hmr update /src/components/GlobalSearch.jsx
+3:49:12 PM [vite] Internal server error: /Users/akshayvanil/Desktop/wecaare/src/components/GlobalSearch.jsx: Unexpected token, expected "," (145:19)
+
+  143 |                     </div>
+  144 |                   </Tile>
+> 145 |                   );
+      |                    ^
+  146 |                 })}
+  147 |               </div>
+  148 |             </>
+  Plugin: vite:react-babel
+  File: /Users/akshayvanil/Desktop/wecaare/src/components/GlobalSearch.jsx:145:19
+  143|                      </div>
+  144|                    </Tile>
+  145|                    );
+     |                     ^
+  146|                  })}
+  147|                </div>
+      at constructor (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.unexpected (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6644:16)
+      at JSXParserMixin.expect (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6924:12)
+      at JSXParserMixin.parseCallExpressionArguments (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11307:14)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11250:29)
+      at JSXParserMixin.parseSubscript (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11184:19)
+      at JSXParserMixin.parseSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11158:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11149:17)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4661:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElementAt (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4727:32)
+      at JSXParserMixin.jsxParseElement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11747:28)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOpBaseRightExpr (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11050:34)
+      at JSXParserMixin.parseExprOpRightExpr (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11045:21)
+      at JSXParserMixin.parseExprOp (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11011:27)
+      at JSXParserMixin.parseExprOp (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11017:21)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10972:17)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10848:23)
+3:49:15 PM [vite] hmr update /src/components/GlobalSearch.jsx
+3:49:21 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+3:49:21 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+3:49:35 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:49:35 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+3:49:35 PM [vite] hmr update /src/components/GlobalSearch.jsx
+3:50:59 PM [vite] hmr update /src/components/AddInsurance.jsx
+3:51:03 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:51:16 PM [vite] hmr update /src/components/AddInsurance.jsx
+3:51:16 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:51:16 PM [vite] hmr update /src/components/AddInsurance.jsx
+3:51:16 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:52:54 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:53:06 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:53:15 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:53:15 PM [vite] Internal server error: /Users/akshayvanil/Desktop/wecaare/src/components/ViewRecords.jsx: Missing semicolon. (322:11)
+
+  320 |               </div>
+  321 |             </Tile>
+> 322 |           ))}
+      |            ^
+  323 |         </div>
+  324 |       )}
+  325 |
+  Plugin: vite:react-babel
+  File: /Users/akshayvanil/Desktop/wecaare/src/components/ViewRecords.jsx:322:11
+  320|                </div>
+  321|              </Tile>
+  322|            ))}
+     |             ^
+  323|          </div>
+  324|        )}
+      at constructor (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.semicolon (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6920:10)
+      at JSXParserMixin.parseReturnStatement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13219:12)
+      at JSXParserMixin.parseStatementContent (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseExprListItem (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12249:18)
+      at JSXParserMixin.parseCallExpressionArguments (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11316:22)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11250:29)
+      at JSXParserMixin.parseSubscript (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11184:19)
+      at JSXParserMixin.parseSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11158:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11149:17)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4661:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+3:53:25 PM [vite] Pre-transform error: /Users/akshayvanil/Desktop/wecaare/src/components/ViewRecords.jsx: Missing semicolon. (322:11)
+
+  320 |               </div>
+  321 |             </Tile>
+> 322 |           ))}
+      |            ^
+  323 |         </div>
+  324 |       )}
+  325 |
+3:53:25 PM [vite] Internal server error: /Users/akshayvanil/Desktop/wecaare/src/components/ViewRecords.jsx: Missing semicolon. (322:11)
+
+  320 |               </div>
+  321 |             </Tile>
+> 322 |           ))}
+      |            ^
+  323 |         </div>
+  324 |       )}
+  325 |
+  Plugin: vite:react-babel
+  File: /Users/akshayvanil/Desktop/wecaare/src/components/ViewRecords.jsx:322:11
+  320|                </div>
+  321|              </Tile>
+  322|            ))}
+     |             ^
+  323|          </div>
+  324|        )}
+      at constructor (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:367:19)
+      at JSXParserMixin.raise (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6624:19)
+      at JSXParserMixin.semicolon (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:6920:10)
+      at JSXParserMixin.parseReturnStatement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13219:12)
+      at JSXParserMixin.parseStatementContent (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12874:21)
+      at JSXParserMixin.parseStatementLike (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12843:17)
+      at JSXParserMixin.parseStatementListItem (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12823:17)
+      at JSXParserMixin.parseBlockOrModuleBlockBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13392:61)
+      at JSXParserMixin.parseBlockBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13385:10)
+      at JSXParserMixin.parseBlock (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:13373:10)
+      at JSXParserMixin.parseFunctionBody (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12174:24)
+      at JSXParserMixin.parseArrowExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12149:10)
+      at JSXParserMixin.parseParenAndDistinguishExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11759:12)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11395:23)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4793:20)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseMaybeAssignAllowIn (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10864:17)
+      at JSXParserMixin.parseMaybeAssignAllowInOrVoidPattern (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12567:17)
+      at JSXParserMixin.parseExprListItem (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12249:18)
+      at JSXParserMixin.parseCallExpressionArguments (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11316:22)
+      at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11250:29)
+      at JSXParserMixin.parseSubscript (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11184:19)
+      at JSXParserMixin.parseSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11158:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11149:17)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+      at JSXParserMixin.parseExprOps (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10968:23)
+      at JSXParserMixin.parseMaybeConditional (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10945:23)
+      at JSXParserMixin.parseMaybeAssign (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10895:21)
+      at JSXParserMixin.parseExpressionBase (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:39
+      at JSXParserMixin.allowInAnd (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:12500:12)
+      at JSXParserMixin.parseExpression (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10844:17)
+      at JSXParserMixin.jsxParseExpressionContainer (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4661:31)
+      at JSXParserMixin.jsxParseElementAt (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4740:36)
+      at JSXParserMixin.jsxParseElement (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4778:17)
+      at JSXParserMixin.parseExprAtom (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:4788:19)
+      at JSXParserMixin.parseExprSubscripts (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11145:23)
+      at JSXParserMixin.parseUpdate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11130:21)
+      at JSXParserMixin.parseMaybeUnary (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:11110:23)
+      at JSXParserMixin.parseMaybeUnaryOrPrivate (/Users/akshayvanil/Desktop/wecaare/node_modules/@babel/parser/lib/index.js:10963:61)
+3:53:28 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:53:49 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:55:50 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:56:24 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:56:33 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:56:44 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:56:59 PM [vite] hmr update /src/components/ViewRecords.jsx
+3:59:22 PM [vite] hmr update /src/App.jsx, /src/components/AdminPanel.jsx, /src/components/AddInsurance.jsx, /src/components/ExpiringPolicies.jsx, /src/components/ViewRecords.jsx, /src/components/Login.jsx, /src/components/GlobalSearch.jsx, /src/components/Dashboard.jsx
+4:05:28 PM [vite] hmr update /src/App.jsx, /src/components/AdminPanel.jsx, /src/components/AddInsurance.jsx, /src/components/ExpiringPolicies.jsx, /src/components/ViewRecords.jsx, /src/components/Login.jsx, /src/components/GlobalSearch.jsx, /src/components/Dashboard.jsx
+4:15:44 PM [vite] hmr update /src/components/ViewRecords.jsx
+4:15:46 PM [vite] hmr update /src/components/ViewRecords.jsx
+4:15:53 PM [vite] hmr update /src/components/ViewRecords.jsx
+4:16:03 PM [vite] hmr update /src/components/ViewRecords.jsx
+4:16:09 PM [vite] hmr update /src/components/ViewRecords.jsx
+4:16:21 PM [vite] hmr update /src/components/ViewRecords.jsx
+4:16:35 PM [vite] hmr update /src/components/ViewRecords.scss
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+4:16:48 PM [vite] hmr update /src/components/ViewRecords.scss
+4:16:48 PM [vite] hmr update /src/components/ViewRecords.jsx
+DEPRECATION WARNING [legacy-js-api]: The legacy JS API is deprecated and will be removed in Dart Sass 2.0.0.
+
+More info: https://sass-lang.com/d/legacy-js-api
+
+4:28:55 PM [vite] hmr update /src/App.jsx
+4:28:55 PM [vite] hmr update /src/App.scss
+4:28:55 PM [vite] hmr update /src/components/AddInsurance.jsx
+4:28:55 PM [vite] hmr update /src/components/AddInsurance.scss
+4:28:55 PM [vite] hmr update /src/components/AdminPanel.jsx
+4:28:55 PM [vite] hmr update /src/components/AdminPanel.scss
+4:28:55 PM [vite] hmr update /src/components/Dashboard.jsx
+4:28:55 PM [vite] hmr update /src/components/Dashboard.scss
+4:28:55 PM [vite] hmr update /src/components/ExpiringPolicies.jsx
+4:28:55 PM [vite] hmr update /src/components/ExpiringPolicies.scss
+4:28:55 PM [vite] hmr update /src/components/Footer.jsx
+4:28:55 PM [vite] hmr update /src/components/Footer.scss
+4:28:55 PM [vite] hmr update /src/components/GlobalSearch.jsx
+4:28:55 PM [vite] hmr update /src/components/GlobalSearch.scss
+4:28:55 PM [vite] hmr update /src/components/Login.jsx
+4:28:55 PM [vite] hmr update /src/components/Login.scss
+4:28:55 PM [vite] hmr update /src/components/ViewRecords.jsx
+4:28:55 PM [vite] hmr update /src/components/ViewRecords.scss
+4:28:55 PM [vite] hmr update /src/index.scss
+4:28:55 PM [vite] page reload src/main.jsx
+4:28:55 PM [vite] page reload src/services/api.js
+4:28:55 PM [vite] vite.config.js changed, restarting server...
+4:28:55 PM [vite] server restarted.
+4:28:55 PM [vite] Pre-transform error: Failed to load url /src/main.jsx (resolved id: /src/main.jsx). Does the file exist?
+4:29:01 PM [vite] page reload index.html
+4:29:01 PM [vite] page reload Progress/index.html
