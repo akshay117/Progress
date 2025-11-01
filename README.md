@@ -517,11 +517,6 @@ Built with ❤️ using React and IBM Carbon Design System.
 **Version:** 1.0.0  
 **Last Updated:** October 2025
 
----
-
-## 📞 Support
-
-For issues or questions, please contact your system administrator.
 
 ---
 
