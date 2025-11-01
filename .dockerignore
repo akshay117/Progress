@@ -1,0 +1,14 @@
+node_modules
+backend/target
+backend/database/*.db
+.git
+.gitignore
+*.log
+.env
+.vscode
+.idea
+dist
+.DS_Store
+*.md
+!README.md
+
