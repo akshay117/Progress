@@ -63,7 +63,16 @@ COPY --from=backend-build /app/backend/target/insurance-portal-1.0.0.jar app.jar
 # Copy frontend build from build stage
 COPY --from=frontend-build /app/frontend/dist /var/www/html
 
-# Copy nginx configuration
+# Create main nginx.conf that includes conf.d
+RUN echo 'events {' > /etc/nginx/nginx.conf && \
+    echo '    worker_connections 1024;' >> /etc/nginx/nginx.conf && \
+    echo '}' >> /etc/nginx/nginx.conf && \
+    echo '' >> /etc/nginx/nginx.conf && \
+    echo 'http {' >> /etc/nginx/nginx.conf && \
+    echo '    include /etc/nginx/conf.d/*.conf;' >> /etc/nginx/nginx.conf && \
+    echo '}' >> /etc/nginx/nginx.conf
+
+# Copy nginx server configuration
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 # Create supervisor configuration to run both services
