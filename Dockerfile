@@ -43,15 +43,19 @@ RUN mvn clean package -DskipTests
 FROM eclipse-temurin:17-jre-alpine AS runtime
 
 # Install nginx and supervisor
-RUN apk add --no-cache nginx supervisor
+RUN apk add --no-cache nginx supervisor bash
 
 WORKDIR /app
 
-# Create directories
+# Create directories and ensure nginx directories exist
 RUN mkdir -p /app/database \
     /var/log/supervisor \
     /etc/supervisor/conf.d \
-    /var/www/html
+    /var/www/html \
+    /var/log/nginx \
+    /var/cache/nginx \
+    /var/run/nginx \
+    /etc/nginx/conf.d
 
 # Copy backend JAR from build stage
 COPY --from=backend-build /app/backend/target/insurance-portal-1.0.0.jar app.jar
@@ -81,7 +85,8 @@ RUN echo '[supervisord]' > /etc/supervisor/conf.d/supervisord.conf && \
     echo 'command=nginx -g "daemon off;"' >> /etc/supervisor/conf.d/supervisord.conf && \
     echo 'autostart=true' >> /etc/supervisor/conf.d/supervisord.conf && \
     echo 'autorestart=true' >> /etc/supervisor/conf.d/supervisord.conf && \
-    echo 'priority=10' >> /etc/supervisor/conf.d/supervisord.conf && \
+    echo 'priority=5' >> /etc/supervisor/conf.d/supervisord.conf && \
+    echo 'startsecs=0' >> /etc/supervisor/conf.d/supervisord.conf && \
     echo 'stderr_logfile=/var/log/supervisor/nginx.err.log' >> /etc/supervisor/conf.d/supervisord.conf && \
     echo 'stdout_logfile=/var/log/supervisor/nginx.out.log' >> /etc/supervisor/conf.d/supervisord.conf
 
@@ -91,7 +96,35 @@ EXPOSE 80
 # Create entrypoint script to handle PORT dynamically
 RUN echo '#!/bin/sh' > /entrypoint.sh && \
     echo 'PORT=${PORT:-80}' >> /entrypoint.sh && \
-    echo 'sed -i "s/listen 80/listen $PORT/g" /etc/nginx/conf.d/default.conf' >> /entrypoint.sh && \
+    echo 'echo "=== Starting WeCare Insurance Portal ==="' >> /entrypoint.sh && \
+    echo 'echo "Render PORT environment variable: $PORT"' >> /entrypoint.sh && \
+    echo '' >> /entrypoint.sh && \
+    echo '# Update nginx config to listen on Render PORT' >> /entrypoint.sh && \
+    echo 'if [ -f /etc/nginx/conf.d/default.conf ]; then' >> /entrypoint.sh && \
+    echo '  echo "Updating nginx config to listen on port $PORT..."' >> /entrypoint.sh && \
+    echo '  sed -i.bak "s/listen 80;/listen $PORT;/" /etc/nginx/conf.d/default.conf' >> /entrypoint.sh && \
+    echo '  rm -f /etc/nginx/conf.d/default.conf.bak' >> /entrypoint.sh && \
+    echo '  echo "Nginx config updated. Current listen directive:"' >> /entrypoint.sh && \
+    echo '  grep "listen" /etc/nginx/conf.d/default.conf' >> /entrypoint.sh && \
+    echo 'else' >> /entrypoint.sh && \
+    echo '  echo "ERROR: nginx config file not found at /etc/nginx/conf.d/default.conf"' >> /entrypoint.sh && \
+    echo '  ls -la /etc/nginx/conf.d/ || echo "conf.d directory listing failed"' >> /entrypoint.sh && \
+    echo '  exit 1' >> /entrypoint.sh && \
+    echo 'fi' >> /entrypoint.sh && \
+    echo '' >> /entrypoint.sh && \
+    echo '# Test nginx configuration' >> /entrypoint.sh && \
+    echo 'echo "Testing nginx configuration..."' >> /entrypoint.sh && \
+    echo 'nginx -t' >> /entrypoint.sh && \
+    echo 'if [ $? -ne 0 ]; then' >> /entrypoint.sh && \
+    echo '  echo "ERROR: Nginx configuration test failed!"' >> /entrypoint.sh && \
+    echo '  echo "Nginx config contents:"' >> /entrypoint.sh && \
+    echo '  cat /etc/nginx/conf.d/default.conf' >> /entrypoint.sh && \
+    echo '  exit 1' >> /entrypoint.sh && \
+    echo 'fi' >> /entrypoint.sh && \
+    echo 'echo "Nginx configuration is valid"' >> /entrypoint.sh && \
+    echo '' >> /entrypoint.sh && \
+    echo '# Start supervisor' >> /entrypoint.sh && \
+    echo 'echo "Starting services with supervisor..."' >> /entrypoint.sh && \
     echo 'exec /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf' >> /entrypoint.sh && \
     chmod +x /entrypoint.sh
 
